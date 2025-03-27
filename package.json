@@ -1,0 +1,17 @@
+{
+  "name": "media_channel_cleaner_bot",
+  "version": "1.0.0",
+  "description": "A discord bot that keeps media channels tidy, using SQLite for persistence in case of downtime.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node deploy-commands.js && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["discord", "bot", "cleaner", "media", "sqlite"],
+  "author": "StamLord",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "sqlite3": "^5.1.7"
+  }
+}
