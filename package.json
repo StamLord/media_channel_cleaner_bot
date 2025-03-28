@@ -7,11 +7,18 @@
     "start": "node deploy-commands.js && node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["discord", "bot", "cleaner", "media", "sqlite"],
+  "keywords": [
+    "discord",
+    "bot",
+    "cleaner",
+    "media",
+    "sqlite"
+  ],
   "author": "StamLord",
   "license": "MIT",
   "dependencies": {
     "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
     "sqlite3": "^5.1.7"
   }
 }

@@ -2,7 +2,9 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { Client, Events, GatewayIntentBits, Collection } = require('discord.js');
 const { getMonitoredChannels, loadDbToCache, initializeDatabase } = require('./channels.js');
-const { token } = require('./config.json');
+
+require('dotenv').config();
+const token = process.env.DISCORD_TOKEN;
 
 const client = new Client({
     intents: [

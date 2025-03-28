@@ -1,7 +1,10 @@
 const { REST, Routes } = require('discord.js');
-const { clientId, token } = require('./config.json');
 const fs = require('node:fs');
 const path = require('node:path');
+
+require('dotenv').config();
+const token = process.env.DISCORD_TOKEN;
+const appId = process.env.DISCORD_APP_ID;
 
 const commands = [];
 
@@ -30,7 +33,7 @@ const rest = new REST().setToken(token);
 		console.log(`Started refreshing ${commands.length} application (/) commands.`);
 
 		const data = await rest.put(
-			Routes.applicationCommands(clientId),
+			Routes.applicationCommands(appId),
 			{ body: commands },
 		);
 
