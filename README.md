@@ -39,13 +39,16 @@ Follow these steps to set up the project locally:
 2. Enable the "Message Content Intent" permission:
   a. Navigate to "Bot" tab in the Discord Developer Portal under your applocation
   b. Enable "Message Content Intent"
-3. Get your application token from the "Bot" tab and application id from the "General" tab and edit the config.json file in your project as follows:
-  ```json
-  {
-    "token": "YOUR_BOT_TOKEN",
-    "clientId": "YOUR_APPLICATION_ID"
-  }
-  ```
+3. Get your application token from the "Bot" tab and application id from the "General" tab and create a .env file in your project's root directory:
+   ```bash
+      cd media_channel_cleaner_bot
+      touch .env
+   ```
+   Edit ".env" to look like this:
+   ```bash
+      DISCORD_TOKEN=YOUR_BOT_TOKEN,
+      DISCORD_APP_ID=YOUR_APPLICATION_ID
+   ```
   Replace YOUR_BOT_TOKEN and YOUR_APPLICATION_ID with your actual bot token and application ID!
   
 4. Invite the bot to your Discord server
