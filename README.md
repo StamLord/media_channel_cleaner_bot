@@ -59,11 +59,11 @@ Follow these steps to set up the project locally:
 
 Once the bot is in your server and running, it will appear connected like any other user.
 To interact with the bot you will use the following slash commands:
-* /add-media-channel
-* /remove-media-channel
-* /is-media-channel
-* /clean
-* /clean-bots
+* [/add-media-channel](#add-media-channel)
+* [/remove-media-channel](#remove-media-channel)
+* [/is-media-channel](#is-media-channel)
+* [/clean](#clean)
+* [/clean-bots](#clean-bots)
 
 ### add-media-channel
 Adds the current channel to the list of media-only channels.
