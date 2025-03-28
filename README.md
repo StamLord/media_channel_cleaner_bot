@@ -1,6 +1,10 @@
 # Media Channel Cleaner Bot
 
-🧹 🧹 🧹 🧹
+...🧹...🧹...🧹...🧹
+
+🚀 **Currently Hosted on Render**  
+You can invite the bot to your server using the link below:
+🔗 **[Invite the Bot](https://discord.com/oauth2/authorize?client_id=1352329964266979368&permissions=2147560448&scope=bot%20applications.commands)**
 
 ## Description
 
