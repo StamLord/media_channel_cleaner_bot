@@ -20,11 +20,11 @@ Follow these steps to set up the project locally:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/project-name.git
+   git clone https://github.com/StamLord/media_channel_cleaner_bot.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd project-name
+   cd media_channel_cleaner_bot
    ```
 3. Install dependencies:
    ```bash
@@ -38,7 +38,7 @@ Follow these steps to set up the project locally:
 2. Enable the "Message Content Intent" permission:
   a. Navigate to "Bot" tab in the Discord Developer Portal under your applocation
   b. Enable "Message Content Intent"
-4. Get your application token from the "Bot" tab and application id from the "General" tab and edit the config.json file in your project as follows:
+3. Get your application token from the "Bot" tab and application id from the "General" tab and edit the config.json file in your project as follows:
   ```json
   {
     "token": "YOUR_BOT_TOKEN",
@@ -46,7 +46,9 @@ Follow these steps to set up the project locally:
   }
   ```
   Replace YOUR_BOT_TOKEN and YOUR_APPLICATION_ID with your actual bot token and application ID!
+  
 4. Invite the bot to your Discord server
+   
 5. Start the bot from your local repository's directory:
    ```bash
    npm start
